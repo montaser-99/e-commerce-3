@@ -5,8 +5,7 @@ function Main() {
         <>
         <div className="hero border-1 pb-3">
           <div className="card bg-dark text-dark border-0 mx-3">
-            <img className="card-img img-fluid"src="/assets/img2.jpeg"
-              alt="Card"  style={{ height: '800px', objectFit: 'cover' }} />
+                      <img className="card-img img-fluid" src={`${process.env.PUBLIC_URL}/assets/img2.jpeg`} alt="Card" style={{ height: '800px', objectFit: 'cover' }}  />
             <div className="card-img-overlay d-flex  align-items-center">
               <div className="container">
                 <h5 className="card-title fs-1 text fw-lighter">New Season Arrivals</h5>
